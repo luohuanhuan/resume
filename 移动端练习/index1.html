@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index1.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+</head>
+<body>
+<div id="main">
+    <ul class="slide">
+        <li class="zIndex">
+            <div class="a1">
+                <p>骆焕焕 (女)<br><br><br>15232653525<br><br></p>
+                <p>
+                    学历：本科<br><br><br>求职意向：Web前端工程师<br><br><br>
+                </p>
+                <p>
+                    JS、CSS3动画、移动端<br><br><br>
+                </p>
+                <p>较强的责任心、学习能力强<br><br>Web前端工程师</p>
+            </div>
+            <div class="btn animated bounce infinite"></div>
+        </li>
+        <li>
+            <div class="a2">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <div class="btn animated bounce infinite"></div>
+            </div>
+        </li>
+        <li>
+            <div class="btn animated bounce infinite"></div>
+            <div class="a3" ></div>
+
+        </li>
+        <li>
+            <div class=" box" >
+                <div></div>
+                <div><br><br><br>骆焕焕</div>
+                <div><br><br>对互联网强烈的好奇心和浓厚的兴趣，驱使<br>我不断学习，积累知识，不断去了解新的前沿<br>技能。为人谦和、责任心强、能够很快的融入<br>到团队中去。</div>
+                <div><br><br>对WEB标准有良好认识，了解标签语义化；了解<br>HTML和CSS兼容性处理；熟练使用JavaScript<br>及Ajax、JSON等前端技术的原理进行开发；<br>对JS中的面向对象及设计模式有一定了解；<br>了解jQuery类库，阅读过其部分源码；</div>
+                <div><br><br>对于编程的学习成了我的主要爱好。在大学的<br>时光里，掌握了JavaScript、jQuery及基本<br>NodeJS的使用。遇到问题会先百度或者谷歌<br>博客园等看看，为自己充电。</div>
+            </div>
+            <div class="btn animated bounce infinite"></div>
+        </li>
+    </ul>
+</div>
+<script src="js/index1.js"></script>
+<script type="text/javascript">
+   window.setTimeout(function () {
+        var oList = document.querySelectorAll(".box>div");
+        for (var i = 0; i < oList.length; i++) {
+            oList[i].className = "move";
+        }
+    }, 200);
+
+</script>
+</body>
+</html>
